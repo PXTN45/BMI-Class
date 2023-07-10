@@ -45,6 +45,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div id="result">
     <div class="card" style="width: 18rem;">
         <div class="card-body">
+            <p class="card-text"><?php echo "Your weight is : " . $weight; ?></p>
+            <p class="card-text"><?php echo "Your height is : " . $height; ?></p>
             <p class="card-text"><?php echo "Your BMI is : " . $bmi; ?></p>
 
     <div class="card" style="width: 15rem; high: 15rem;">
@@ -63,13 +65,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     ?>
     </div>
-
                 </div>
             </div>
         </div>
     </div>
 <?php
-
 }
 ?>
 </body>
