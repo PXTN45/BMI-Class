@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-image: url("./img/running.jpg");
+    background-size: 96rem;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
